@@ -1,1 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1110px;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+}
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.5625rem;
+}
+
+header img {
+  height: 2rem;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: hsla(240, 14%, 62%, 0.25);
+}
+
+.circle-heading {
+  margin-top: 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #28283d;
+}
+.circle {
+  font-size: 1rem;
+  color: #87879d;
+  font-weight: 700;
+  border: 1px solid hsla(240, 14%, 62%, 0.25);
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  line-height: 2rem;
+  margin-right: 1.5rem;
+  border-radius: 100%;
+  padding-top: 0.6em;
+}
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 1.8rem;
+}
+
+.colorbox {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  width: 255px;
+  height: 112px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-radius: 0.625em;
+  padding: 1em 1.5em 1em 1.5em;
+}
+
+.color-system {
+  color: #87879d;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-right: 2rem;
+}
+
+.color-value {
+  font-weight: 700;
+}
+
+.color1 {
+  font-size: 1rem;
+  background-color: #4d96a9;
+  color: #ffffff;
+}
+.color2 {
+  font-size: 1rem;
+  background-color: #855fb1;
+  color: #ffffff;
+}
+.color3 {
+  font-size: 1rem;
+  background-color: #28283d;
+  color: #ffffff;
+}
+.color4 {
+  font-size: 1rem;
+  background-color: #87879d;
+  color: #ffffff;
+}
+
+.color5 {
+  font-size: 1rem;
+  background-color: #8fe3f9;
+  color: #28283d;
+}
+.color6 {
+  font-size: 1rem;
+  background-color: #d9b8ff;
+  color: #28283d;
+}
+.color7 {
+  font-size: 1rem;
+  background-color: #fafafa;
+  color: #28283d;
+  border: 1px solid #dfdfdf;
+}
+
+.font-container {
+  margin-top: 4rem;
+  color: white;
+  padding: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.font-name {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 33%;
+  text-align: center;
+}
+
+.font-examples {
+  margin-top: 4rem;
+  width: 47%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+  display: unset;
+}
+
+.font-examples strong {
+  font-weight: 700;
+}
+
+.font-examples span {
+  text-transform: uppercase;
+}
+
+.font-tagline {
+  margin-top: 4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #87879d;
+}
+
+.font-container-2 {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.font-container-2-left {
+  width: 60%;
+}
+
+.font-container-2-right {
+  width: 40%;
+}
+
+.text-example {
+  margin-top: 1rem;
+}
+
+.h1-style {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.h2-style {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.overline-style {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #4d96a9;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.body {
+  color: #87879d;
+  line-height: 1.6rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

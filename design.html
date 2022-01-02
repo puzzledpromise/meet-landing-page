@@ -4,9 +4,204 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title></title>
-    <link rel="stylesheet" href="design.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/design.css" />
   </head>
   <body>
-    body
+    <header>
+      <img src="images/logo.svg" alt="" />
+      <h1>Design System</h1>
+    </header>
+    <div class="circle-heading">
+      <div class="circle">01</div>
+      <h2>Colors</h2>
+    </div>
+    <div class="color-container">
+      <div class="color">
+        <div class="colorbox color1">#4D96A9</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">77, 150, 168</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">192°, 37%, 48%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color2">#855FB1</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">133, 95, 177</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">268°, 34%, 53%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color3">#28283D</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">40, 40, 61</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">240°, 21%, 20%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color4">#87879D</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">135, 135, 157</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">240°, 10%, 57%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color5">#8FE3F9</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">143, 227, 249</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">192°, 90%, 77%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color6">#D9B8FF</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">217, 184, 255</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">268°, 100%, 86%</span>
+        </div>
+      </div>
+
+      <div class="color">
+        <div class="colorbox color7">#FAFAFA</div>
+        <div class="color-entry">
+          <span class="color-system">RGB</span
+          ><span class="color-value">250, 250, 250</span>
+        </div>
+        <div class="color-entry">
+          <span class="color-system">HSL</span>
+          <span class="color-value">0°, 0%, 98%</span>
+        </div>
+      </div>
+    </div>
+    <div class="circle-heading">
+      <div class="circle">02</div>
+      <h2>Typography</h2>
+    </div>
+
+    <div class="font-container">
+      <div class="font-name">Red Hat Display</div>
+      <div class="font-examples">
+        <strong>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</strong>
+        <span>
+          a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+          0 ! @ # $ % ^ &amp ; * ( ) _ +
+        </span>
+      </div>
+    </div>
+
+    <div class="font-container-2">
+      <div class="font-container-2-left">
+        <div class="font-tagline">
+          H1 - Red Hat Display Black - 64px - 64px line
+        </div>
+        <div class="h1-style text-example">
+          Morbi in sem<br />
+          quis dui placerat
+        </div>
+
+        <div class="font-tagline">
+          H2 - Red Hat Display Black - 40px - 44px line
+        </div>
+        <div class="h2-style text-example">
+          Praesent dapibus neque id<br />
+          cursu faucibus tortor
+        </div>
+
+        <div class="font-tagline">
+          Overline - Red Hat Display Black - 16px - 26px line - 4px
+          Characterspace - All Caps
+        </div>
+        <div class="overline-style text-example">
+          lorem ipsum dolor sit amet consectetuer
+        </div>
+      </div>
+      <div class="font-container-2-right">
+        <div class="font-tagline">
+          Body - Red Hat Display Medium - 18px - 26px line
+        </div>
+        <div>
+          <p class="body">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+            hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque,
+            aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula
+            sollicitudin laoreet viverra, tortor libero sodales leo, eget
+            blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse
+            potenti.
+          </p>
+          <p class="body">
+            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+            luctus metus libero eu augue. Morbi purus libero, faucibus
+            adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent
+            elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum
+            volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu
+            pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu,
+            fermentum et, dapibus sed, urna.
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div class="circle-heading">
+      <div class="circle">03</div>
+      <h2>Buttons</h2>
+    </div>
+    <div class="button-box">
+      <div>
+        <div class="font-tagline">Button 1 - Default State</div>
+        <button>Download <span class="version">v1.34.1</span></button>
+        <div class="font-tagline">Button 1 - Default State</div>
+        <button>Download <span class="version">v1.34.1</span></button>
+      </div>
+      <div>
+        <div class="font-tagline">Button 1 - Default State</div>
+        <button>Download <span class="version">v1.34.1</span></button>
+        <div class="font-tagline">Button 1 - Default State</div>
+        <button>Download <span class="version">v1.34.1</span></button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
   </body>
 </html>
