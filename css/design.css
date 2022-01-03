@@ -208,3 +208,58 @@ h1 {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10.5rem;
+}
+
+.button-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  width: 12rem;
+  border-radius: 29px;
+  padding: 1em 1.5em 1em 1.5em;
+}
+.btn1 {
+  background-color: #4d96a9;
+}
+
+.btn1 span {
+  color: #8fe3f9;
+}
+
+.btn1-hover {
+  background-color: #71c0d4;
+}
+
+.btn1-hover span {
+  color: #8fe3f9;
+}
+
+.btn2 {
+  background-color: #855fb1;
+}
+
+.btn2 span {
+  color: #d9b8ff;
+}
+
+.btn2-hover {
+  background-color: #b18bdd;
+}
+
+.btn2-hover span {
+  color: #d9b8ff;
+}
