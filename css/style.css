@@ -13,14 +13,16 @@ body {
   width: 7.43rem;
 }
 
-.hero-tablet {
-  max-width: 110%;
-
-  margin-left: -1rem;
-  margin-right: -1rem;
+.hero-image-container {
   margin-bottom: 3rem;
   overflow: hidden;
 }
+
+.hero-tablet {
+  width: 105%;
+  margin-left: -1rem;
+}
+
 h1 {
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -53,6 +55,7 @@ button {
   padding: 1.1em 1.5em 1.1em 1.5em;
 }
 .chapter {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -87,7 +90,7 @@ button {
   text-align: center;
   line-height: 2rem;
   border-radius: 100%;
-  padding-top: 0.6em;
+  padding-top: 0.7em;
 }
 .btn1 {
   background-color: #4d96a9;
@@ -119,4 +122,34 @@ button {
 
 .btn2-hover span {
   color: #d9b8ff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.gallery {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 40%;
+}
+
+.overline {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #4d96a9;
+  font-weight: 700;
+  font-size: 1rem;
 }
