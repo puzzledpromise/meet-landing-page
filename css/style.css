@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+.logo {
+  margin: 3rem auto 4rem;
+  display: block;
+  width: 7.43rem;
+}
+
+.hero-tablet {
+  max-width: 110%;
+
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #28283d;
+  text-align: center;
+  font-weight: 900;
+}
+
+.tagline {
+  color: #87879d;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin: 1.5rem 1.5rem 2rem 1.5rem;
+  text-align: center;
+}
+.buttonbox {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  margin: 0 auto;
+
+  margin-top: 1.5rem;
+  border-radius: 29px;
+  padding: 1.1em 1.5em 1.1em 1.5em;
+}
+.chapter {
+  display: flex;
+  flex-direction: column;
+}
+
+.chapterbox {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.chapterline {
+  border-right: 1px solid rgba(135, 135, 157, 0.25);
+  width: 50%;
+}
+
+.circle-heading {
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #28283d;
+  height: 100%;
+}
+.circle {
+  font-size: 1rem;
+  color: #87879d;
+  font-weight: 700;
+  border: 1px solid hsla(240, 14%, 62%, 0.25);
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 100%;
+  padding-top: 0.6em;
+}
+.btn1 {
+  background-color: #4d96a9;
+}
+
+.btn1 span {
+  color: #8fe3f9;
+}
+
+.btn1-hover {
+  background-color: #71c0d4;
+}
+
+.btn1-hover span {
+  color: #8fe3f9;
+}
+
+.btn2 {
+  background-color: #855fb1;
+}
+
+.btn2 span {
+  color: #d9b8ff;
+}
+
+.btn2-hover {
+  background-color: #b18bdd;
+}
+
+.btn2-hover span {
+  color: #d9b8ff;
+}
