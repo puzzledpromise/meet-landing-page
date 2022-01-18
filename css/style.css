@@ -93,6 +93,12 @@ button {
   border-radius: 100%;
   padding-top: 0.7em;
 }
+
+.hero-sub {
+  max-width: 28.75rem;
+  margin: 0 auto;
+}
+
 .btn1 {
   background-color: #4d96a9;
 }
@@ -208,4 +214,21 @@ h2 {
   color: #fafafa;
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .buttonbox {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gallery {
+    flex-wrap: unset;
+  }
 }
