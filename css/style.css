@@ -35,7 +35,7 @@ h1 {
   color: #87879d;
   font-size: 1rem;
   line-height: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   margin: 1.5rem 1.5rem 2rem 1.5rem;
   text-align: center;
 }
@@ -83,6 +83,7 @@ button {
 .circle {
   font-size: 1rem;
   color: #87879d;
+  background-color: #fafafa;
   font-weight: 700;
   border: 1px solid hsla(240, 14%, 62%, 0.25);
   width: 3.5rem;
@@ -165,6 +166,10 @@ h2 {
   margin-right: 1.5rem;
 }
 .picture-background {
+  margin-top: -1.75rem;
+  padding-top: 5.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   position: relative;
   background-image: url("../images/mobile/image-footer.jpg");
   background-color: rgba(77, 150, 169, 0.85);
@@ -172,6 +177,19 @@ h2 {
   display: flex;
   z-index: -100;
   flex-direction: column;
+  padding-bottom: 4.5rem;
+}
+
+.picture-background h2 {
+  color: #fafafa;
+}
+
+.picture-background p {
+  text-align: center;
+  color: #fafafa;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 .picture-background:after {
